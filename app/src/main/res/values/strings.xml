@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Stock Quotes</string>
+    <string name="delete_symbol">Delete Stock</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_symbol">Enter Symbol</string>
+    <string name="title">Stock Quotes</string>
+    <string name="enter_symbol_hint">Enter your symbol </string>
+    <string name="stock_symbol_quotes">Stock symbols and Quotes</string>
+    <string name="enter_symbol_button">Enter</string>
+    <string name="quotes_app">Quotes</string>
+    <string name="quotes_web">Web</string>
+    <string name="ErrorTitle">No Stock Symbol Entered</string>
+    <string name="ErrorMessage">Please Enter Correct Stock</string>
+    <string name="url">https://in.finance.yahoo.com/q?s=</string>
+    <string name="title_activity_stock_info">StockInfoActivity</string>
+    <string name="Loading">Loading...</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

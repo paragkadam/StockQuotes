@@ -1,0 +1,163 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.psk.stockquotes.StockInfoActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/stockDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Stock Description"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white_primary"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/companyNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lastTradePriceOnlyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textColor="@color/pink_secondary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/daysLowTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white_primary"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/daysHighTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white_primary"
+
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/yearLowTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white_primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/yearHighTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white_primary"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/changeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textColor="@color/white_primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/daysRangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textColor="@color/white_primary"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/stockExchangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/Loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/pink_secondary"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>
